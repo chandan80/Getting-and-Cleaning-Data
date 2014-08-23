@@ -39,29 +39,29 @@ subject from 1-30
 ### Activities
 
   activity_id activity_description
-1           1              WALKING
-2           2     WALKING_UPSTAIRS
-3           3   WALKING_DOWNSTAIRS
-4           4              SITTING
-5           5             STANDING
-6           6               LAYING
+ *          1              WALKING
+ *           2     WALKING_UPSTAIRS
+ *           3   WALKING_DOWNSTAIRS
+ *           4              SITTING
+ *           5             STANDING
+ *           6               LAYING
 
 ### Measures
 
 Prefix:
-t: time domain signal
-f: fast fourier transformed
+* t: time domain signal
+* f: fast fourier transformed
 
 Raw signal source instrument:
-Acc: Accelerometer
-Gyro: Gyroscope
+* Acc: Accelerometer
+* Gyro: Gyroscope
 
 Other attributes:
-Jerk: measures derived in time
-Mag: Euclidean norm magnitude of Jerk signals
-X, Y, Z: axis of the feature
-mean: Mean of the feature
-std: Standard deviation of the feature
+* Jerk: measures derived in time
+* Mag: Euclidean norm magnitude of Jerk signals
+* X, Y, Z: axis of the feature
+* mean: Mean of the feature
+* std: Standard deviation of the feature
 
  [1] "tBodyAcc.X.mean"           "tBodyAcc.Y.mean"           "tBodyAcc.Z.mean"          
  [4] "tBodyAcc.X.std"            "tBodyAcc.Y.std"            "tBodyAcc.Z.std"           
